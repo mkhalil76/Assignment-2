@@ -1,0 +1,105 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background: #eee;
+  position: relative;
+  margin: 0 auto;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.shop-button {
+  background-color: deeppink;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  width: 100%;
+}
+
+.search-box {
+  max-width: 50%;
+  float: right;
+}
+
+#nav-bar-menu {
+  border-top: 1px solid #aaa;
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+  z-index: 1;
+}
+#nav-bar-menu li {
+  width: 25%;
+}
+#nav-bar-menu a:hover {
+  background-color: #aaa;
+}
+#nav-bar-menu .nav-link {
+  color: #333;
+}
+
+.card {
+  padding-top: 70px;
+}
+
+.section {
+  margin: auto;
+  background: #eee;
+}
+
+#basic-addon1 {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.navbar {
+  border-top: 1px solid #aaa;
+}
+
+#home {
+  background: #fff;
+}
+
+.product {
+  padding: 0;
+}
+
+.search-icon {
+  margin-top: 3px;
+  display: none;
+}
+
+.display-4 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 570px) {
+  #nav-bar-menu a.active {
+    display: block;
+  }
+
+  .search-box {
+    display: none;
+  }
+
+  .search-icon {
+    display: inline;
+  }
+
+  #nav-bar-menu a {
+    display: none;
+  }
+
+  #nav-bar-menu li {
+    width: 100%;
+  }
+}
